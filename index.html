@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <main class="man ">
+     <section class="player player0 active" id="idplayer1">
+       <div class="name">PLAYER1</div>
+       <div class="score0" id="idscore0">43</div>
+       <div class="current">
+         <div class="label">current</div>
+         <div class="currentscore0" id="idcs0">20</div>
+       </div>
+     </section>
+     <section class="player player1" id="idplayer2">
+      <div class="name">PLAYER2</div>
+      <div class="score1" id="idscore1">43</div>
+      <div class="current">
+        <div class="label">current</div>
+        <div class="currentscore1" id="idcs1">20</div>
+      </div>
+     </section>
+     <button class="btnnew" id='idbtnnew'>NewGame</button>
+     <button class="btnroll" id="idbtnroll">Roll Dice</button>
+
+     <button class="btnhold" id="idbtnhold">Hold Score</button>
+     <button class="btnhtp" id="idbtnhtp">How to Play??</button>
+     <img src="dice-3.png" class="dice" id="iddice" alt="dice image">
+      <div class=" hi  hiddenhtp"><button id="close">x</button>
+        <ul>
+          <li>*It's a Luck&Dare Game , the one who first scores more than are equal to winning score is declared as winner</li>
+          <li>How to Play???</li>
+          <li>*Each player will get a chance one after one for rolling the dice(Roll Dice)</li>
+          <li>*There are two possibilities after rolling the dice, if the rolled dice value is one(1) ,then the chance for rolling the dice goes to opponent</li>
+          <li>*If we get other than one(1) then the dice value is added to current score and..</li>
+          <li>*Here, the interesting part,we can add the current score to total score by clicking on Hold the dice key, but we lose the chance to roll again.. </li>
+          <li>*If you want roll again, then keep in mind we can roll any number of times without holding the dice but there is a chance you may get one (1) at anytime, then you will lose all the gained current score and also you lose your turn to roll the dice again</li>
+          <li>*It goes on until any of the player will score winning points </li>
+           <li>NOTE:At Present the winning points for game is 100, in future you will get an option to set the winning points(20,50,100,200,500,1000...)</li>
+           <li>Keep Playing and Keep Winning</li>
+        
+        </ul>
+        
+      </div>
+      <div class="hidden congratulations">Congratulations player????
+      
+      </div>
+     
+ </main>
+ <script src="script.js"></script>
+</body>
+</html>
